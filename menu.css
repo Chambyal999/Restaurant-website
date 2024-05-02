@@ -1,0 +1,45 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url(menubackground.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    font-style: italic;
+}
+header{
+    text-align: center;
+}
+nav{
+    display: flex;
+        background-color: rgba(0, 0, 0, 0.338);
+        padding-left: 180px;
+        text-decoration: none;
+        justify-content: center;
+        text-align: center;
+        padding: 30px; ;
+        font-weight: 1000;
+}
+a{
+    padding-right: 55px;
+    margin-bottom: auto;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: 1000;
+}
+.box1{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.338);
+    font-family: sans-serif;
+    font-weight: 600;
+}
+main{
+    padding: 30px;
+    color: white;
+}
+p{
+    padding: 10px;
+}

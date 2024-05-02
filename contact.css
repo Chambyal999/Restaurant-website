@@ -1,0 +1,126 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url(background_img_contactus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    font-style: italic;
+}
+header{
+    text-align: center;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.338);
+    padding-left: 180px;
+    text-decoration: none;
+    padding-bottom: 25px;
+}
+.anchor1{
+    padding-left: 25px;
+    display:grid;
+    padding-left: 25%;
+    text-align: left;
+    margin: 0%;
+}
+ .anchor2{
+    padding-left:30px ;
+    padding-right: 100px;
+    text-align: right;
+    text-decoration: none;
+}
+a{
+    padding-left: 30px;
+    padding-right:30px ;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: 1000;
+}
+main h1{
+    padding: 150px;
+    color: white;
+}
+
+section{
+    text-align: center;
+    background-color: white;
+    background-size: cover;
+}
+section h1{
+    padding-top: 25px;
+}
+section p{
+    text-align: center;
+    color: gray;
+}
+section2 {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button{
+    height: 100px;
+    width: 200px;
+    background-color:#f8daa9;
+    font-size: 14px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: black;
+    margin:5px; ;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+button:hover{
+    background-color: gray;
+    font-weight: 1000;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.338) ;
+    display: flex;
+}
+.footer1{
+    text-align: left;
+    display: flex;
+    width: 150px;
+    height: 200px;
+    flex-wrap: wrap;
+    margin-left :70px; ;
+}
+.footer2{
+    background-color: rgba(0, 0, 0, 0.338);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: black;
+}
+ h6{
+    text-align: start;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 1000;
+    margin-bottom: 2px;
+    justify-content: center;
+}
+.locations{
+    text-align: left;
+    display: flex;
+    width: 150px;
+    height: 200px;
+    flex-wrap: wrap;
+    margin-left :70px; ;
+}
+.Connect{
+    margin: 0px;
+}

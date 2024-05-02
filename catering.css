@@ -1,0 +1,109 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url(cateringbackground.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    font-style: italic;
+}
+header{
+    text-align: center;
+}
+nav{
+    display: flex;
+        background-color: rgba(0, 0, 0, 0.338);
+        padding-left: 180px;
+        text-decoration: none;
+        justify-content: center;
+        text-align: center;
+        padding: 30px; ;
+        font-weight: 1000;
+}
+a{
+    padding-right: 55px;
+    margin-bottom: auto;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: 1000;
+}
+main h1{
+    color: white;
+}
+h1{
+    text-align: center;
+}
+
+.para{
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+}
+p{
+    background-color:rgba(33, 28, 28, 0.538); 
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left:50px ;
+    padding-right: 50px;
+    padding-top: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+footer{
+    margin-top: 50px;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer1{
+    text-align: left;
+    display: flex;
+    width: 150px;
+    height: 200px;
+    flex-wrap: wrap;
+    margin-left :70px; ;
+    color: black;
+
+}
+.footer2{
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: black;
+}
+ h6{
+    text-align: start;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 1000;
+    margin-bottom: 2px;
+    justify-content: center;
+}
+.locations{
+    text-align: left;
+    display: flex;
+    width: 150px;
+    height: 200px;
+    flex-wrap: wrap;
+    margin-left :70px; ;
+}
+.Connect{
+    margin: 0px;
+}
+footer a{
+    color: black;
+}
